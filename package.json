@@ -1,0 +1,19 @@
+{
+  "name": "color",
+  "version": "1.0.0",
+  "description": "Login google",
+  "main": "api.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrungPhuNA/login-google.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TrungPhuNA/login-google/issues"
+  },
+  "homepage": "https://github.com/TrungPhuNA/login-google#readme"
+}
