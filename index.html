@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Plugin</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    <body>
+        <div id="content" style="margin: 100px auto;text-align:center;padding:15px;border:1px solid #eee;width: 300px;">
+                <h1>Phan Trung Phú</h1>
+                <a href="#" class="btn btn-danger" id="js-login-google"><i class="fa fa-google"></i> Google</a>
+                <a href="" class="btn btn-primary"><i class="fa fa-facebook"></i> Facebook</a>
+        </div>
+    </body>
+    <script src="/color/login_google.js"></script>
+    <script>
+        
+       $("#js-login-google").login_google({
+                appID : '1087792452798-veo0dqm7i9llmf80ik5jk52bm9c6fo3p.apps.googleusercontent.com',
+            }).fail(function name(response) {
+                console.log(response);
+            }).done(function(response){
+                console.log(response);
+            });
+    </script>
+</html>
